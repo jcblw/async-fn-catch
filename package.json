@@ -1,0 +1,23 @@
+{
+  "name": "async-fn-catch",
+  "version": "0.1.0",
+  "description": "async function error catching can be a bit tricky",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/async-fn-catch.git",
+    "type": "git"
+  },
+  "scripts": {
+    "test": "standard && nyc tape test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "author": "Jacob Lowe",
+  "license": "MIT",
+  "devDependencies": {
+    "nyc": "^8.3.2",
+    "standard": "^8.4.0",
+    "tape": "^4.6.2"
+  }
+}
