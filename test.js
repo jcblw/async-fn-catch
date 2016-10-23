@@ -1,5 +1,5 @@
 
-const {test} = require('tape')
+const test = require('tape').test
 const asyncCatch = require('.')
 
 test('async fn catch export', (t) => {
