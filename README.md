@@ -1,5 +1,7 @@
 ## Async Fn Catch
 
+[![Build Status](https://travis-ci.org/jcblw/async-fn-catch.svg?branch=master)](https://travis-ci.org/jcblw/async-fn-catch)
+
 Async function error handling can be tricky. As the author of a plugin I don't want to create nearly impossible errors to catch. I like them to be exposed to the user in a simple interface.
 
 This is a solution I have found to be useful.
